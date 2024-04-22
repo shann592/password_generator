@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #22223b;
+  color: #fff;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 750px;
+  padding: 10px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+
+  background-color: #222;
+  border-radius: 4px;
+}
+
+input[type='text'] {
+  padding: 14px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 20rem;
+  font-family: 'Press Start 2P', system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(197, 67, 19);
+}
+
+button {
+  padding: 14px 10px;
+  border: none;
+  background-color: green;
+  color: #fff;
+  font-family: 'Press Start 2P', system-ui;
+  font-weight: 400;
+  font-style: normal;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.display-copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px 10px 0px;
+}
+
+.options {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  justify-content: space-evenly;
+}
+
+label {
+  font-size: 14px;
+}
+
+input[type='range'] {
+  cursor: pointer;
+}
